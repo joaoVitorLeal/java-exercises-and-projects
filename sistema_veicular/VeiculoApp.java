@@ -47,11 +47,30 @@ public class VeiculoApp {
 }
 
 /*
- * Veiculo: Classe base com atributos como marca, modelo e ano.
- * Carro: Classe derivada de Veiculo que adiciona atributos como número de portas e tipo de combustível.
- * Moto: Classe derivada de Veiculo que adiciona atributos como cilindrada e tipo de guidão.
- * Implemente métodos para exibir informações detalhadas de cada veículo 
- **  e um método para calcular o valor de revenda baseado no ano do veículo.
-*/
-
-// A Receita Federal diz que a taxa de depreciação de veículos gira, em média, 20% do valor todo ano
+ *  - Sistema Veicular
+ * Este sistema gerencia informações sobre veículos, permitindo a 
+ * criação de diferentes tipos de veículos. As classes principais incluem:
+ *
+ * Veiculo: Classe base que representa um veículo com atributos como:
+ * - Marca
+ * - Modelo
+ * - Ano de fabricação
+ *
+ * Carro: Classe derivada de Veiculo que inclui atributos específicos como:
+ * - Número de portas
+ * - Tipo de combustível
+ *
+ * Moto: Classe derivada de Veiculo que adiciona atributos como:
+ * - Cilindrada
+ * - Tipo de guidão
+ *
+ *  - Funcionalidades
+ * - Métodos para exibir informações detalhadas de cada veículo.
+ * - Método para calcular o valor de revenda do veículo, 
+ *   considerando uma taxa de depreciação média de 20% ao ano, conforme
+ *   orientações da Receita Federal.
+ *
+ * Este sistema visa fornecer uma maneira eficiente de gerenciar e 
+ * avaliar veículos, facilitando a visualização de informações e a 
+ * determinação do valor de revenda.
+ */
